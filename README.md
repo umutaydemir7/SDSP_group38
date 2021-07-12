@@ -28,7 +28,7 @@ using the machine learning model.<br />
 
 # Task 1: Preparing a Machine Learning Model
 
-  The first of these is the design and creation of a machine learning model that predicts
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first of these is the design and creation of a machine learning model that predicts
 the diseases of new patients using existing patient records. In this step of the project, we
 used python programming language for data analysis and machine learning modeling. We
 implemented this step on the jupyter notebook. We have prepared a much more detailed
@@ -47,7 +47,7 @@ notebook.
 
 ##  Data Understanding
 
-In this section, we aimed to understand the dataset provided as ready and to
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this section, we aimed to understand the dataset provided as ready and to
 determine the current features of our dataset. We used the pandas library to work on the
 dataset. In this section, after reading the dataset, we learned the shape of our data set using
 the pandas library. Our dataset consists of 400 rows and 51 columns. Then we learned
@@ -59,7 +59,7 @@ same categorical value for all rows.
 
 ##  Data Analysis
 
-The names of the features in the dataset are not specified. That's why in this section,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The names of the features in the dataset are not specified. That's why in this section,
 we have specifically examined what is obvious. While examining these properties, we drew a
 bar plot or pie plot using the matplotlib library.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Later, we applied exploratory data analysis in this section. In this context, we tried to
@@ -79,7 +79,7 @@ Thus, the numeric values were in the same range.
 
 ##  Modeling
 
-  We used a neural network while creating a machine learning model. While creating
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We used a neural network while creating a machine learning model. While creating
 the model here, we first created a model with its original dataset. Then, by applying feature
 selection, we created a model with a dataset with a reduced number of features. We used
 the sklearn.feature_selection library while doing the feature selection process. Thus, we
