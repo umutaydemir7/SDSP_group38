@@ -130,11 +130,11 @@ data science purposes mostly.
 
 ## Installing libraries which are required
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To run the program, the user have to install streamlit, tensorflow and keras by using
-● pip install tensorflow (version = 2.5.0-rc3)
-● pip install keras (version = 2.5.0)
-● pip install streamlit
-After installing these l ibraries, to run the program the user have to type
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To run the program, the user have to install streamlit, tensorflow and keras by using<br />
+● pip install tensorflow (version = 2.5.0-rc3)<br />
+● pip install keras (version = 2.5.0)<br />
+● pip install streamlit<br />
+After installing these l ibraries, to run the program the user have to type<br />
 -streamlit run main.py
 
 ## Creating form
