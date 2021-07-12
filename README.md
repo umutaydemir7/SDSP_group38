@@ -147,6 +147,9 @@ preparation. So that if a feature gets removed, form changes too. After removing
 that are not required, form is created. Here are some screenshots
 from the form:
 
+<img src="1.png"/>
+<img src="2.png"/>
+
 ## Using the data to predict with model
 
   We keep the information which we received from the user within a dictionary. And this
@@ -159,6 +162,8 @@ the prediction resets.
 
   When the user clicks the predict button, we send the data frame through the model
 and list the top 3 possible diseases in order to show their possibilities like below.
+
+<img src="3.png"/>
 
 
 ## Conclusion
@@ -177,10 +182,8 @@ https://learn.datacamp.com/courses/introduction-to-deep-learning-with-keras <br 
 https://learn.datacamp.com/courses/introduction-to-deep-learning-in-python <br />
 https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/ <br />
 https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5 <br />
-https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/s 
-oftmax <br />
-https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a
-59641e86d <br />
+https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/softmax <br />
+https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d <br />
 https://machinelearningmastery.com/softmax-activation-function-with-python/ <br />
 
 
