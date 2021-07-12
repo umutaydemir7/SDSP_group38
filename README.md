@@ -1,6 +1,8 @@
 # BBM467 Small Data Science Project by Dilara İşeri and Umut Aydemir
 
 # Introduction
+
+<img src="/disease.jpg"/>
   The first and most important step to treat a disease is to diagnose the disease correctly.
 Because the treatment of the misdiagnosed disease will also be wrong and the patient will
 not be able to recover. However, some diseases can be difficult to diagnose by doctors. This
@@ -168,20 +170,18 @@ use this easier and provide abstraction.
 References
 
 
-[https://discuss.streamlit.io]https://discuss.streamlit.io
-[https://stackoverflow.com]https://stackoverflow.com
-[https://docs.streamlit.io/en/stable/api.html]https://docs.streamlit.io/en/stable/api.html
-[https://learn.datacamp.com/courses/introduction-to-deep-learning-with-keras]https://learn.datacamp.com/courses/introduction-to-deep-learning-with-keras
-[https://learn.datacamp.com/courses/introduction-to-deep-learning-in-python]https://learn.datacamp.com/courses/introduction-to-deep-learning-in-python
-[https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/]https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
-[https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5]https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5
-[https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/s
-oftmax]https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/s
-oftmax
-[https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a
-59641e86d]https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a
-59641e86d
-[https://machinelearningmastery.com/softmax-activation-function-with-python/]https://machinelearningmastery.com/softmax-activation-function-with-python/
+https://discuss.streamlit.io <br />
+https://stackoverflow.com <br />
+https://docs.streamlit.io/en/stable/api.html <br />
+https://learn.datacamp.com/courses/introduction-to-deep-learning-with-keras <br />
+https://learn.datacamp.com/courses/introduction-to-deep-learning-in-python <br />
+https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/ <br />
+https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5 <br />
+https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/s 
+oftmax <br />
+https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a
+59641e86d <br />
+https://machinelearningmastery.com/softmax-activation-function-with-python/ <br />
 
 
 
