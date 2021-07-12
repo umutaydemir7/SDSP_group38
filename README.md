@@ -3,28 +3,28 @@
 # Introduction
 
 <img src="/disease.jpg"/>
-  The first and most important step to treat a disease is to diagnose the disease correctly.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first and most important step to treat a disease is to diagnose the disease correctly.
 Because the treatment of the misdiagnosed disease will also be wrong and the patient will
 not be able to recover. However, some diseases can be difficult to diagnose by doctors. This
 situation can have many reasons. The disease may be very rare in humans. And for this
 reason, doctors may not have much experience with this disease. Apart from this, the tests
 required to diagnose some diseases can be tiring and costly for the patient. This is an
-important factor that makes the diagnosis of the disease difficult.
+important factor that makes the diagnosis of the disease difficult.<br />
 In addition to these, the symptoms shown by the patient may also belong to different
 diseases. This situation causes doctors to sometimes misdiagnose. This situation is an
 important problem that needs to be solved. The aim of this project and the main problem it
 wants to solve is to diagnose diseases that are difficult to diagnose and require expensive
 examinations, by using resources in the best way and without compromising the quality of
-health services.
+health services.<br />
 Our aim in this project is to provide patients with an application that predicts which diseases
 these patients have. In making this estimation, we aimed to use the symptoms and
 characteristics of the patients. Thus, we tried to ensure that diseases are diagnosed quickly,
-easily, cheaply and effectively.
+easily, cheaply and effectively.<br />
 Our project within the scope of this purpose basically consists of two parts. The first of these
 is the design and creation of a machine learning model that predicts the diseases of new
 patients using existing patient records. The second part of the project is the design of a web
 application that takes the patient's information as i nput and predicts the patient's disease
-using the machine learning model.
+using the machine learning model.<br />
 
 # Task 1: Preparing a Machine Learning Model
 
@@ -36,7 +36,7 @@ notebook by running the codes we created on Jupyter notebook piece by piece. The
 analysis we have done and the machine learning model we have developed are explained in
 detail on the jupyter notebook with their codes. This notebook has been delivered with the
 project. However, it will be useful to briefly mention the steps we have implemented in this
-report.
+report.<br />
 In this project, we used a ready-made dataset to develop the machine learning
 model. However, we analyzed and prepared the dataset to be able to use it in machine
 learning modeling. In a data analysis and machine learning project, the most i mportant and
@@ -61,19 +61,19 @@ same categorical value for all rows.
 
 The names of the features in the dataset are not specified. That's why in this section,
 we have specifically examined what is obvious. While examining these properties, we drew a
-bar plot or pie plot using the matplotlib library.
+bar plot or pie plot using the matplotlib library.<br />
 Later, we applied exploratory data analysis in this section. In this context, we tried to
 determine the relationships between the features in the dataset. For this, we used features
-that we know what they are.
+that we know what they are.<br />
 In the data preparation section, we prepared our data for machine learning modeling.
 For this, we first filled the missing values in the dataset. For the categorical features, we
 replaced the missing values with the most repeating values in the column they belong to.
-Then we enumerated the categorical values and converted them to an integer data type.
+Then we enumerated the categorical values and converted them to an integer data type.<br />
 Its dataset consists of 51 columns. Since we will receive this information from the
 user in the application part, this number is too high. We need to reduce the features in the
 dataset to a number of features that users can fill without getting bored. That's why we need
 to do feature selection. Accordingly, we first calculated the correlation between the features
-and dropped one of the features with high correlation between them.
+and dropped one of the features with high correlation between them.<br />
 Then we applied normalization to numeric features. We used MinMaxScaler for this.
 Thus, the numeric values were in the same range.
 
@@ -85,42 +85,42 @@ selection, we created a model with a dataset with a reduced number of features. 
 the sklearn.feature_selection library while doing the feature selection process. Thus, we
 found the feature's importance points. Later, we collected these points by proportioning them
 to a hundred. We chose the features until we got 95 scores out of 100. Thus, we reduced
-our feature number to 19.
+our feature number to 19.<br />
 We chose the neural network as the machine learning model. Because one of the
 reasons for this was that we were asked about the probability of possible diseases as a
 model output. As a result of our research, we learned that we can produce this output with
 activation functions in the neural network model. We worked on a neural network for this. We
 used Keras to model with the Neural network. Keras is a simple tool for constructing a neural
 network. It is a high-level framework based on tensorflow, theano or cntk backends.The
-details of the neural network model we have created are as follows:
+details of the neural network model we have created are as follows:<br />
   ● The model consists of a total of 4 layers, including an input layer, 2 hidden layers and
-an output layer.
+an output layer.<br />
   ● We used the relu function as the activation function on the input layer and hidden
 layers. We used softmax as the activation function on the output layer. Because
 softmax calculates probability values of possible target layers as output. This is our
-aim.
+aim.<br />
   ● We used 128 neurons on the input layer, 64 neurons on the first hidden layer, 32
 neurons on the second hidden layer and 4 neurons on the output layer.
 First of all, we trained our model with train data with whole features. While training
 the model, we set the number of epochs to be 120. Then we calculated accuracy with test
 data. When we created and trained models without feature selection, we achieved 0.87
-accuracy.
+accuracy.<br />
 Then we created the same neural network model with the same activation functions.
 And we train the model with the selected data set and calculate accuracy with the test set.
 After eliminating unnecessary features, the accuracy of the created model was 90%.
 Eliminating unnecessary features had a positive effect on the model and enabled us to
-create a more accurate model.
-Then we tried to set up different neural network models using the selected dataset.
+create a more accurate model.<br />
+Then we tried to set up different neural network models using the selected dataset.<br />
   ● When we used sigmoid as the activation function, we achieved an accuracy of 87%.
-It seems that the relu activation function is more suitable for our dataset.
+It seems that the relu activation function is more suitable for our dataset.<br />
   ● We created a neural network model with 3 hidden l ayers together with the Relu
 activation function. The accuracy of this model is higher than the model with 2 hidden
-layers. The accuracy of this model came in over 90%.
+layers. The accuracy of this model came in over 90%.<br />
 As a result, the model we use in our application consists of 1 input layer, 2 hidden
 layers and 1 output l ayer. Relu is used as an activation function in the input layer and hidden
 layers. Since we want to obtain a probability output on the output layer, softmax is used as
 the activation function. 128 neurons are used on the input layer, 64 neurons on the first
-hidden layer, 32 neurons on the second hidden layer and 4 neurons on the output layer.
+hidden layer, 32 neurons on the second hidden layer and 4 neurons on the output layer.<br />
 
 # Task 2: Developing a Web Application
 
